@@ -1,0 +1,8 @@
+{
+  "name": "Remix OK PAY",
+  "description": "OK PAY online earning, order management, and wallet payment platform matching the mobile app interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

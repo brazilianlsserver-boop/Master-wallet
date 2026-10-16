@@ -1,0 +1,471 @@
+{
+  "users": {
+    "7425831902": {
+      "phone": "7425831902",
+      "id": "316568",
+      "name": "OK User",
+      "password": "password123",
+      "pin": "123456",
+      "inviteCode": "894215",
+      "role": "user",
+      "isLoggedIn": false,
+      "createdAt": "2026-10-10",
+      "balance": 100
+    },
+    "8949263502": {
+      "phone": "8949263502",
+      "id": "ADMIN-8949",
+      "name": "Sagar Master (Admin)",
+      "password": "7689921898%%%",
+      "pin": "123456",
+      "inviteCode": "894926",
+      "role": "admin",
+      "isLoggedIn": true,
+      "createdAt": "2026-10-10",
+      "balance": 50000
+    },
+    "9876543210": {
+      "phone": "9876543210",
+      "id": "779590",
+      "name": "Test Player",
+      "password": "password123",
+      "pin": "123456",
+      "inviteCode": "966188",
+      "role": "user",
+      "isLoggedIn": true,
+      "createdAt": "2026-10-15",
+      "balance": 1030
+    },
+    "9123456780": {
+      "phone": "9123456780",
+      "id": "144905",
+      "name": "Ramesh Kumar Updated",
+      "password": "password123",
+      "pin": "123456",
+      "inviteCode": "195531",
+      "role": "user",
+      "isLoggedIn": true,
+      "createdAt": "2026-10-15",
+      "balance": 150
+    }
+  },
+  "userAccounts": {
+    "7425831902": {
+      "appState": {
+        "balance": 100,
+        "depositTotal": 0,
+        "withdrawalTotal": 0,
+        "commissionTotal": 42,
+        "sellTotal": 1000,
+        "rewardTotal": 30,
+        "pendingTotal": 0,
+        "inProcessAmount": 0,
+        "inProcessOrders": 0,
+        "commissionRate": 4.2,
+        "usdtRate": 112,
+        "isSellingActive": false,
+        "integralPoints": 100,
+        "welcomeBonusAmount": 30
+      },
+      "orders": [
+        {
+          "id": "ORD-10001",
+          "currency": "INR",
+          "amount": 10000,
+          "income": 420,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10002",
+          "currency": "INR",
+          "amount": 7000,
+          "income": 294,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10003",
+          "currency": "INR",
+          "amount": 5001,
+          "income": 210,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10004",
+          "currency": "INR",
+          "amount": 3500,
+          "income": 147,
+          "category": "2000-4999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10005",
+          "currency": "INR",
+          "amount": 2200,
+          "income": 92.4,
+          "category": "2000-4999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10006",
+          "currency": "INR",
+          "amount": 1500,
+          "income": 63,
+          "category": "500-1999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10007",
+          "currency": "INR",
+          "amount": 800,
+          "income": 33.6,
+          "category": "500-1999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10008",
+          "currency": "INR",
+          "amount": 450,
+          "income": 18.9,
+          "category": "100-499",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10009",
+          "currency": "INR",
+          "amount": 200,
+          "income": 8.4,
+          "category": "100-499",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10010",
+          "currency": "INR",
+          "amount": 220,
+          "income": 9.24,
+          "category": "100-499",
+          "status": "available",
+          "payeeAccount": "0500201700020304",
+          "payeeName": "ghjff",
+          "ifsc": "PUNB0050020",
+          "transferType": "IMPS",
+          "payoutWallet": "Mobikwik",
+          "payoutAccount": "8949263502",
+          "payoutUpi": "8949263502@mbkns",
+          "orderNo": "R2026101118241395424989"
+        }
+      ],
+      "transactions": [
+        {
+          "id": "TX-INIT-BONUS",
+          "type": "claim_income",
+          "amount": 30,
+          "status": "completed",
+          "title": "New User Login Reward (+₹30)",
+          "date": "10:00 AM"
+        },
+        {
+          "id": "TX-INIT-COMMISSION",
+          "type": "claim_income",
+          "amount": 70,
+          "status": "completed",
+          "title": "Initial Cashback Rebate (+₹70)",
+          "date": "10:15 AM"
+        }
+      ],
+      "wallets": [],
+      "activeOrderId": null,
+      "lastSavedAt": "2026-10-15T10:27:45.353Z"
+    },
+    "8949263502": {
+      "appState": {
+        "balance": 50000,
+        "depositTotal": 100000,
+        "withdrawalTotal": 50000,
+        "commissionTotal": 15400,
+        "sellTotal": 350000,
+        "rewardTotal": 5000,
+        "pendingTotal": 0,
+        "inProcessAmount": 0,
+        "inProcessOrders": 0,
+        "commissionRate": 4.2,
+        "usdtRate": 112,
+        "isSellingActive": false,
+        "integralPoints": 500,
+        "welcomeBonusAmount": 30
+      },
+      "orders": [
+        {
+          "id": "ORD-10001",
+          "currency": "INR",
+          "amount": 10000,
+          "income": 420,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10002",
+          "currency": "INR",
+          "amount": 7000,
+          "income": 294,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10003",
+          "currency": "INR",
+          "amount": 5001,
+          "income": 210,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10004",
+          "currency": "INR",
+          "amount": 3500,
+          "income": 147,
+          "category": "2000-4999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10005",
+          "currency": "INR",
+          "amount": 2200,
+          "income": 92.4,
+          "category": "2000-4999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10006",
+          "currency": "INR",
+          "amount": 1500,
+          "income": 63,
+          "category": "500-1999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10007",
+          "currency": "INR",
+          "amount": 800,
+          "income": 33.6,
+          "category": "500-1999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10008",
+          "currency": "INR",
+          "amount": 450,
+          "income": 18.9,
+          "category": "100-499",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10009",
+          "currency": "INR",
+          "amount": 200,
+          "income": 8.4,
+          "category": "100-499",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10010",
+          "currency": "INR",
+          "amount": 220,
+          "income": 9.24,
+          "category": "100-499",
+          "status": "available",
+          "payeeAccount": "0500201700020304",
+          "payeeName": "ghjff",
+          "ifsc": "PUNB0050020",
+          "transferType": "IMPS",
+          "payoutWallet": "Mobikwik",
+          "payoutAccount": "8949263502",
+          "payoutUpi": "8949263502@mbkns",
+          "orderNo": "R2026101118241395424989"
+        }
+      ],
+      "transactions": [],
+      "wallets": [],
+      "activeOrderId": null,
+      "lastSavedAt": "2026-10-15T10:28:23.640Z"
+    },
+    "9876543210": {
+      "appState": {
+        "balance": 1030,
+        "depositTotal": 1000,
+        "withdrawalTotal": 0,
+        "commissionTotal": 0,
+        "sellTotal": 0,
+        "rewardTotal": 30,
+        "pendingTotal": 0,
+        "inProcessAmount": 0,
+        "inProcessOrders": 0,
+        "commissionRate": 4.2,
+        "usdtRate": 112,
+        "isSellingActive": false,
+        "integralPoints": 100,
+        "welcomeBonusAmount": 30
+      },
+      "orders": [
+        {
+          "id": "ORD-10001",
+          "currency": "INR",
+          "amount": 10000,
+          "income": 420,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10002",
+          "currency": "INR",
+          "amount": 7000,
+          "income": 294,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10003",
+          "currency": "INR",
+          "amount": 5001,
+          "income": 210,
+          "category": "5000+",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10004",
+          "currency": "INR",
+          "amount": 3500,
+          "income": 147,
+          "category": "2000-4999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10005",
+          "currency": "INR",
+          "amount": 2200,
+          "income": 92.4,
+          "category": "2000-4999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10006",
+          "currency": "INR",
+          "amount": 1500,
+          "income": 63,
+          "category": "500-1999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10007",
+          "currency": "INR",
+          "amount": 800,
+          "income": 33.6,
+          "category": "500-1999",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10008",
+          "currency": "INR",
+          "amount": 450,
+          "income": 18.9,
+          "category": "100-499",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10009",
+          "currency": "INR",
+          "amount": 200,
+          "income": 8.4,
+          "category": "100-499",
+          "status": "available"
+        },
+        {
+          "id": "ORD-10010",
+          "currency": "INR",
+          "amount": 220,
+          "income": 9.24,
+          "category": "100-499",
+          "status": "available",
+          "payeeAccount": "0500201700020304",
+          "payeeName": "ghjff",
+          "ifsc": "PUNB0050020",
+          "transferType": "IMPS",
+          "payoutWallet": "Mobikwik",
+          "payoutAccount": "8949263502",
+          "payoutUpi": "8949263502@mbkns",
+          "orderNo": "R2026101118241395424989"
+        }
+      ],
+      "transactions": [
+        {
+          "id": "TX-ADMIN-1792060083367",
+          "type": "deposit",
+          "amount": 500,
+          "status": "completed",
+          "title": "Cloud Admin Credit: Manual Admin Adjustment",
+          "date": "10:28 AM"
+        },
+        {
+          "id": "TX-ADMIN-1792060080936",
+          "type": "deposit",
+          "amount": 500,
+          "status": "completed",
+          "title": "Admin Balance Credit: Manual Admin Adjustment",
+          "date": "03:58 PM"
+        },
+        {
+          "id": "TX-BONUS-1792060066919",
+          "type": "claim_income",
+          "amount": 30,
+          "status": "completed",
+          "title": "New Account Welcome Bonus (+₹30)",
+          "date": "03:57 PM"
+        }
+      ],
+      "wallets": [],
+      "activeOrderId": null,
+      "lastSavedAt": "2026-10-15T10:28:03.261Z"
+    },
+    "9123456780": {
+      "appState": {
+        "balance": 150
+      },
+      "orders": [],
+      "transactions": [
+        {
+          "id": "TX-WELCOME-1792060309206",
+          "type": "claim_income",
+          "amount": 30,
+          "status": "completed",
+          "title": "Internet Registration Bonus (+₹30)",
+          "date": "10:31 AM"
+        }
+      ],
+      "wallets": [
+        {
+          "id": "w-1792060309213",
+          "type": "Mobikwik",
+          "accountNumber": "8949263502",
+          "accountName": "Sagar Master",
+          "isDefault": true,
+          "createdAt": "2026-10-15T10:31:49.213Z"
+        }
+      ],
+      "activeOrderId": null,
+      "lastSavedAt": "2026-10-15T10:31:58.592Z"
+    }
+  },
+  "pendingOrders": [],
+  "announcements": [
+    {
+      "id": "msg-1",
+      "title": "Official Internet Cloud Database Connected",
+      "content": "OK PAY is now operating live on cloud internet servers! All user registrations, order claims, and admin approvals sync in real-time across devices.",
+      "date": "Today",
+      "unread": true,
+      "priority": "urgent"
+    }
+  ]
+}
